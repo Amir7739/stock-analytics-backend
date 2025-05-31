@@ -1,0 +1,16 @@
+# Node modules (if you use node)
+node_modules/
+
+# Python virtual environment
+venv/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
