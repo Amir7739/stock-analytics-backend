@@ -12,7 +12,9 @@ This is the backend for Stock Analytics built with FastAPI and Firebase Admin SD
 
 ---
 
-## Step 1: Get the Code
+## Steps: Get the Code
+
+# Step 1: Clone the code
 
 If you want to clone from GitHub:
 
@@ -36,7 +38,7 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-# Install Dependencies
+# Step 3: Install Dependencies
 
 fastapi
 uvicorn
@@ -47,7 +49,7 @@ python-dotenv
 pip install -r requirements.txt
 
 
-#  4: Setup Firebase Environment Variables
+#  Step 4: Setup Firebase Environment Variables
 
 FIREBASE_TYPE=service_account
 FIREBASE_PROJECT_ID=your-project-id
@@ -63,7 +65,7 @@ FIREBASE_CLIENT_CERT_URL=https://www.googleapis.com/robot/v1/metadata/x509/your-
 PORT=8000
 
 
-# Run the Backend Server
+# Step 5: Run the Backend Server
 
 uvicorn app.main:app --reload
 
